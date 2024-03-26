@@ -1,0 +1,58 @@
+/*Este es un comentario */
+#uno{ background-color: #F00;}
+#dos{ background-color: #0F0;}
+#tres{ background-color: #00F;}
+
+#uno,#dos,#tres{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: right;
+}
+h3{
+  color:#FFF;
+  font-size: 55px;
+  text-align: center;
+}
+
+
+#capa2 {
+  background-color: #CCC;
+  color: #333;
+  width: 25vw;
+  height: 25vh;
+  border: 1px solid #FFF;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+#capa1 {
+  background-color: #333;
+  color: #FFF;
+  width: 25vw;
+  /*vw : ancho de la ventana*/
+  height: 25vh;
+  /*vh: alto de la ventana*/
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #FFF;
+  border: 5px solid;
+  border-radius: 10%;
+  border-top-color: #F00;
+  border-right-color: #0F0;
+  border-bottom-color: #00F;
+  border-left-color: #0FF;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #B6D6F2;
+  background-image: url('../img/fondo.png');
+  background-attachment: fixed;
+  background-repeat: repeat;
+  font-family: Verdana, sans-serif;
+}
+

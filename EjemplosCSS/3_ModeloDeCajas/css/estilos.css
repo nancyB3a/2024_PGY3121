@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#caja1, #caja2, #caja3, #caja4 {
+  width: 200px;
+  height: 200px;
+  padding-top: 65px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 50px;
+}
+
+#caja1 {
+  background-color: #BB4430;
+  /*float:left;*/
+  margin-left: 200px;
+}
+
+#caja2 {
+  background-color: #7EBDC2;
+  float: left;
+}
+
+#caja3 {
+  background-color: #F3DFA2;
+  float: left;
+}
+
+#caja4 {
+  background-color: #EFE6DD;
+  float: left;
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #648381;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-color: #FFBF46;
+}
+
+/*menu*/
+nav {
+  width: 250px;
+  margin: 0 auto;
+  height: 40px;
+  background-color: #575761;
+}
+
+nav ul{
+  list-style-type:none;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a{
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  padding-top:10px;
+  box-sizing: border-box;
+}
+
+nav ul li a:hover{
+  background-color:#8ACB88;
+  color: #575761;
+border-bottom: solid 3px #FFBF46;
+}
+
+/*principal*/
+#main {
+  width: 100%;
+  height: 50vh;
+  background-color: #E4FDE1;
+}
+
+footer {
+  padding-top: 2vh;
+  padding-left: 2vh;
+  width: 100%;
+  height: 20vh;
+  background-color: #648381;
+  box-sizing: border-box;
+}
+
+#social {
+  width: 30%;
+  height: 90%;
+  background-color: #8ACB88;
+  float: left;
+}
+
+#mapa {
+  width: 30%;
+  height: 90%;
+  background-color: #8ACB88;
+  float: left;
+  margin-left: 2vh;
+}
+
+#contacto {
+  width: 30%;
+  height: 90%;
+  background-color: #8ACB88;
+  float: left;
+  margin-left: 2vh;
+}
